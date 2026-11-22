@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="31">
+<mxfile host="app.diagrams.net" pages="32">
   <diagram name="1-ERD-1-Staff" id="mEd9E9lq3pjtndHoGLOE">
     <mxGraphModel dx="2068" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4513,7 +4513,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iE1qgISvgQB8wLEqIJYx" name="3-Questions-Assumptions">
-    <mxGraphModel dx="1194" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4525,6 +4525,86 @@
         </mxCell>
         <mxCell id="pkUwpQWtBuZXsa4fr1_h-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&#xa;&lt;h2&gt;&lt;span&gt;CONTRADICTIONS&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;C1 — Section 8: Stakeholder Interview Notes vs Section 9: NFR-1 Performance&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Section 8: The Head of Branch Operations states that rental check-out should take no more than &lt;/span&gt;&lt;strong&gt;&lt;span&gt;3 minutes&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Section 9 (NFR-1): Rental check-out must complete in under &lt;/span&gt;&lt;strong&gt;&lt;span&gt;3 seconds&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; of system time.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Contradiction:&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; The two requirements specify different checkout time limits.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Resolution Required:&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; Confirm the intended performance target with the business stakeholders. The 3-second requirement may refer to system processing time, while the 3-minute requirement may refer to the complete counter operation.&lt;/span&gt;&lt;/p&gt;&#xa;&#xa;" vertex="1">
           <mxGeometry height="750" width="750" x="45" y="1754" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_QDErUi3JhnvWXDDf2w3" name="4-Business-Rules">
+    <mxGraphModel dx="991" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5-IvRML8BFkJZDciVL_q-48" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;tableRender=collapsed;" value="" vertex="1">
+          <mxGeometry height="140" width="870" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-49" parent="5-IvRML8BFkJZDciVL_q-48" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="870" as="geometry" />
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-50" parent="5-IvRML8BFkJZDciVL_q-49" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;b&gt;SRS Section&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="213" as="geometry">
+            <mxRectangle height="40" width="213" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-51" parent="5-IvRML8BFkJZDciVL_q-49" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;b&gt;Business Rule&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="209" x="213" as="geometry">
+            <mxRectangle height="40" width="209" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-52" parent="5-IvRML8BFkJZDciVL_q-49" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;b&gt;Why Constraints Are Not Enough&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="239" x="422" as="geometry">
+            <mxRectangle height="40" width="239" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-53" parent="5-IvRML8BFkJZDciVL_q-49" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;b&gt;How to Enforce It&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="209" x="661" as="geometry">
+            <mxRectangle height="40" width="209" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-54" parent="5-IvRML8BFkJZDciVL_q-48" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="100" width="870" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-55" parent="5-IvRML8BFkJZDciVL_q-54" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="7.7 — Customers" vertex="1">
+          <mxGeometry height="100" width="213" as="geometry">
+            <mxRectangle height="100" width="213" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-56" parent="5-IvRML8BFkJZDciVL_q-54" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="A blacklisted customer cannot create a new reservation." vertex="1">
+          <mxGeometry height="100" width="209" x="213" as="geometry">
+            <mxRectangle height="100" width="209" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-57" parent="5-IvRML8BFkJZDciVL_q-54" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Requires checking the customer&#39;s blacklist record before creating a reservation." vertex="1">
+          <mxGeometry height="100" width="239" x="422" as="geometry">
+            <mxRectangle height="100" width="239" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-58" parent="5-IvRML8BFkJZDciVL_q-54" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Use a stored procedure to check the blacklist status and reject the reservation if the customer is blacklisted." vertex="1">
+          <mxGeometry height="100" width="209" x="661" as="geometry">
+            <mxRectangle height="100" width="209" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-59" parent="1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="100" width="870" x="40" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-60" parent="5-IvRML8BFkJZDciVL_q-59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;p&gt;7.10 — Loyalty Program; Section 8 — Stakeholder Interview Notes&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="213" as="geometry">
+            <mxRectangle height="100" width="213" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-61" parent="5-IvRML8BFkJZDciVL_q-59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;p&gt;A customer&#39;s loyalty tier must be automatically determined from the current points balance and must never be entered manually.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="209" x="213" as="geometry">
+            <mxRectangle height="100" width="209" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-62" parent="5-IvRML8BFkJZDciVL_q-59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;p&gt;Determining the tier requires calculating the customer&#39;s current points balance from multiple loyalty transactions and applying the tier ranges. Standard constraints cannot automatically perform this aggregate calculation and update the tier.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="239" x="422" as="geometry">
+            <mxRectangle height="100" width="239" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-IvRML8BFkJZDciVL_q-63" parent="5-IvRML8BFkJZDciVL_q-59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;p&gt;Use application logic or a stored procedure to calculate the points balance whenever points are earned or redeemed, then determine the correct tier: Silver, Gold, or Platinum.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="209" x="661" as="geometry">
+            <mxRectangle height="100" width="209" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
